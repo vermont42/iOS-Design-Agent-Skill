@@ -195,7 +195,11 @@ To install this skill for everyone on a project, add the following to your `.cla
 }
 ```
 
-## Option C: Gemini CLI
+## Option C: Cursor
+
+Cursor marketplace approval is pending. Once approved, the skill will be installable directly from the Cursor marketplace.
+
+## Option D: Gemini CLI
 
 Gemini CLI natively supports the Agent Skills format. Install with:
 
@@ -205,7 +209,7 @@ gemini skills install https://github.com/vermont42/iOS-Design-Agent-Skill.git
 
 The skill will be discovered automatically. Verify with `/skills list`.
 
-## Option D: Antigravity
+## Option E: Antigravity
 
 Antigravity supports the Agent Skills format. Install via:
 
@@ -215,11 +219,11 @@ npx skills add https://github.com/vermont42/iOS-Design-Agent-Skill --skill ios-d
 
 Or clone the repo and place the `ios-design-agent-skill/` folder in `.agents/skills/` in your workspace.
 
-## Option E: OpenAI Codex
+## Option F: OpenAI Codex
 
 Copy the `ios-design-agent-skill/` folder into your Codex skills directory. See `agents/openai.yaml` for the manifest.
 
-## Option F: Manual Installation
+## Option G: Manual Installation
 
 1. Clone this repository
 2. Copy or symlink the `ios-design-agent-skill/` folder into your tool's skills location:
