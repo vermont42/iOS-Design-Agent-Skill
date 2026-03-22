@@ -1,0 +1,13 @@
+{
+  "name": "ios-design-agent-skill",
+  "version": "1.0.0",
+  "description": "Audit and improve iOS/SwiftUI app aesthetics — typography, color, spatial composition, motion, and depth.",
+  "author": {
+    "name": "Josh Adams"
+  },
+  "repository": "https://github.com/vermont42/iOS-Design-Agent-Skill",
+  "license": "MIT",
+  "skills": [
+    "./ios-design-agent-skill"
+  ]
+}
