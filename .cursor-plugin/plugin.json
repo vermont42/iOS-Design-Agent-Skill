@@ -7,6 +7,7 @@
   },
   "repository": "https://github.com/vermont42/iOS-Design-Agent-Skill",
   "license": "MIT",
+  "logo": "./assets/logo.png",
   "skills": [
     "./ios-design-agent-skill"
   ]
