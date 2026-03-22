@@ -38,7 +38,7 @@ Once registered, other users can install the skill by adding your marketplace so
 
 ### Troubleshooting
 - If the marketplace command is not recognized, ensure you are running a recent version of Claude Code that supports plugins.
-- The `.claude-plugin/plugin.json` in this repo defines the plugin metadata. If you change the skill name or description, update that file as well.
+- The `.claude-plugin/marketplace.json` in this repo defines the plugin metadata. If you change the skill name or description, update that file as well.
 
 ## Cursor Marketplace
 
@@ -89,4 +89,4 @@ Once registered, other users can install the skill by adding your marketplace so
 
 ### Notes
 - The Cursor marketplace submission process is newer and may change. Check Cursor's official documentation for the latest instructions.
-- Both marketplaces ultimately point back to this GitHub repository. Keeping the repo public and the `SKILL.md` / `plugin.json` files up to date is what matters most.
+- Both marketplaces ultimately point back to this GitHub repository. Keeping the repo public and the `SKILL.md` / `marketplace.json` files up to date is what matters most.
